@@ -39,6 +39,12 @@
     <q-page-container>
       <router-view/>
     </q-page-container>
+
+    <q-footer class="bg-grey-8 text-white">
+      <div class="footer-content">
+        &copy; 2024 Muh.Azizurrohman. All rights reserved.
+      </div>
+    </q-footer>
   </q-layout>
 </template>
 
@@ -55,5 +61,12 @@ export default {
 <style>
 body {
   font-family: Roboto, sans-serif;
+}
+
+.footer-content {
+  width: 100%;
+  text-align: center;
+  padding: 3px 0;
+  font-size: 0.875rem; 
 }
 </style>
